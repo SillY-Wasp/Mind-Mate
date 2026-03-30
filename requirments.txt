@@ -1,9 +1,0 @@
-fastapi
-uvicorn
-torch
-torchvision
-ultralytics
-opencv-python
-numpy
-pillow
-PyJWT
