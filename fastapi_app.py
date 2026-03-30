@@ -564,3 +564,8 @@ if __name__ == "__main__":
         reload=True,  # Auto-reload on code changes (للتطوير فقط)
         log_level="info"
     )
+
+from pyngrok import ngrok
+
+public_url = ngrok.connect(8000)
+print("Public URL:", public_url)
